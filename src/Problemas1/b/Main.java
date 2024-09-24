@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        // Declaracion de variables
         float x;
         float y;
         float z;
@@ -19,7 +20,7 @@ public class Main {
         z = teclado.nextFloat();
 
         numerador = x + x * (y + (z * z));
-        denominador = (x + (float)Math.PI) * (y + (float)Math.PI);
+        denominador = (float) ((x + Math.PI) * (y + Math.PI));
 
         resultadoFinal = numerador / denominador;
 
