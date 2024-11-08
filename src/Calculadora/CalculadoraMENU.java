@@ -52,7 +52,7 @@ public class CalculadoraMENU {
                     System.out.print("Ingrese el Segundo Numero: ");
                     n2 = teclado.nextInt();
 
-                    System.out.println("\nResultado de la Multiplicacino: "+multiplicacion(n1,n2));
+                    System.out.println("\nResultado de la Multiplicacion: "+multiplicacion(n1,n2));
                     break;
                 case 4:
                     System.out.print("Ingrese el Primer Numero: ");
