@@ -21,8 +21,8 @@ public class Main {
         int [][] matriz = new int[F][C];
 
         // Random para generar números aleatorios
-        Random random = new Random();
-
+        Random random = new Random();//
+        
         // Poblar la matriz con valores aleatorios entre 100 y 999
         System.out.println("Matriz generada:");
 
