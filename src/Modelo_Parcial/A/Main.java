@@ -30,7 +30,7 @@ public class Main {
             for (int j = 0; j < C; j++) {
 
                 // Números entre 100 y 999
-                matriz[i][j] = random.nextInt(900) + 100;
+                matriz[i][j] = random.nextInt(100, 900);
             }
         }
 
